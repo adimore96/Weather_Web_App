@@ -1,11 +1,17 @@
 body {
     background-color: rgba(54, 23, 192, 0.532);
-    /* background-image: url(Assets/background1.jpg); */
-    background-repeat: no-repeat;
+    background-image: url(Assets/background1.jpg);
+    /* background-repeat: no-repeat;
     background-position: center;
     margin: 0;
-    padding: 0;
+    padding: 0; */
     overflow-x: hidden;
+
+    background-position: center;
+      background-size:cover ;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      scroll-behavior: smooth;
 
 }
 
