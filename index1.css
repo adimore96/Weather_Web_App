@@ -1,3 +1,8 @@
+:root {
+    touch-action: pan-x pan-y;
+    height: 100% 
+  }
+
 body {
     background-color: rgba(54, 23, 192, 0.532);
     background-image: url(Assets/background1.jpg);
