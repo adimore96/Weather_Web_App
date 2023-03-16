@@ -3,7 +3,6 @@ body {
     background-image: url(Assets/background1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 240vh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
