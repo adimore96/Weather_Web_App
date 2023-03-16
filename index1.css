@@ -1,0 +1,167 @@
+body {
+    background-color: rgba(54, 23, 192, 0.532);
+    background-image: url(Assets/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 240vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.bottom p{
+    position: absolute;
+        bottom: 50px;
+        right: 0px;
+        border-radius: 10px;
+        color: rgb(170, 255, 0);
+}
+
+/* for Mobile View */
+@media only screen and (max-width: 799px) {
+    body {
+        background-color: aliceblue !important;
+    }
+
+    .main {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: 0vh !important;
+    }
+
+    .container {
+        min-height: 40vh !important;
+    }
+    .heading{
+        font-size: 1.5rem;
+        background-color: black;
+        opacity: 0.7;
+    }
+
+    .bottom p{
+        font-size: 18px !important;
+        text-align: end;
+        margin-bottom: 0px !important;
+        position: absolute;
+        bottom: 0px;
+        
+    }
+    .client img{
+        width: 150px;
+        border-radius: 15px;
+        margin-left: 25%;
+    }
+
+
+}
+/* End of Mobile View */
+
+/* for Desktop View */
+@media only screen and (min-width: 800px) {
+
+    .heading {
+        font-size: 2.5rem ;
+        background-color: black;
+        opacity: 0.7;
+    }
+    .bottom p{
+        font-size: 25px;
+        text-align: end;
+        position: absolute;
+        bottom: 0px;
+    }
+    .main{
+        padding: 10px;
+        gap: 10px;
+    }
+    .client img{
+        width: 150px;
+        border-radius: 15px;
+        margin-left: 25%;
+    }
+
+}
+/*End of Desktop View*/
+
+/* for Extra-Desktop View */
+@media only screen and (min-width: 1200px) {
+
+    .bottom p{
+        font-size: 25px;
+        text-align: end;
+
+    }
+
+}
+/*End of Extra-Desktop View*/
+
+.container {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 148, 216);
+    background-image: url(Assets/background1.jpg);
+    border-radius: 10px;
+    margin-top: 5px;
+    min-height: 350px;
+    min-width: 300px;
+    width: 800px;
+    opacity: 0.9;
+    position: relative;
+    box-shadow: 10px 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20vh;
+}
+
+.client {
+    align-items: center;
+
+}
+
+.cliLocation {
+    text-align: right;
+    font-size: 25px;
+}
+
+.header {
+    font-size: 20px;
+    background-color: black;
+    border-radius: 25px;
+    opacity: 0.78;
+    position: sticky;
+}
+
+.location {
+    margin-right: -68%;
+    min-height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.roww {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgage {
+    background-color: rgb(245, 190, 23);
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+
+
+#search {
+    border-radius: 10px;
+    color: red;
+    font-weight: 600;
+}

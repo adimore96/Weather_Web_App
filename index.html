@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Web App</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index1.css">
+    </head>
+
+<body>
+    <div class="heading text-center text-white ">
+        <p>Weather Web-App</p>
+    </div>
+
+   <div class="main">
+  
+    <div class=" container text-white w-50 text-white">
+        <div class="cliLocation" id="userLocation">
+        <!-- <p><b>Pune</b></p> -->
+        </div>
+       <div class="client" id="userTemp">
+        <!-- <p>Your Weather 20 ℃</p> -->
+        
+       </div> 
+       <div class="bottom" id="dayDate">
+        <!-- <p>Wednesday 15-03-2023</p> -->
+       </div>
+    </div>
+
+    <div class="container text-center  w-50">
+        <div class="location success" id="location">
+
+        </div>
+        <div class=" text-white " style="text-align: center;">
+            <form action="">
+                <label for="search">Enter City name to Search</label>
+                <input spellcheck="false" autocomplete="off" oninput="myFunction(this.value)" type="search" id="search"
+                    placeholder="Search by city name">
+            </form>
+        </div>
+        <div class="roww  text-center text-white" id="weather">
+            <!-- <div>
+            <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
+        </div>
+        <div>
+            <h2>32 ℃</h2>
+            <h3></h3>
+            <h4> Clear </h4>
+        </div> -->
+        </div>
+
+
+    </div>
+      
+   </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
